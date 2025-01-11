@@ -1,0 +1,88 @@
+/* Body and general page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8d7f7; /* Light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section styling */
+#hero {
+    position: relative;
+    background-color: #9b6fb0; /* Light purple color */
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* Chatbot fixed sidebar styling */
+#chatbot-container {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #chatbot-container {
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Add responsiveness for small screens */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    iframe {
+        width: 90%;
+        height: 400px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
